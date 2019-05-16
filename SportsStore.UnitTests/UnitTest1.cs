@@ -171,8 +171,8 @@ namespace SportsStore.UnitTests
     }
 
 
-    }
+}
 
     
 
-}
+
