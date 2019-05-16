@@ -33,7 +33,14 @@ namespace SportsStore.Domain.Entities
         }
         public void Clear() { lineCollection.Clear(); }
 
-        public IEnumerable<CartLine> Lines { get { return lineCollection; } }
+        public IEnumerable<CartLine> Lines
+        {
+            get
+            {
+                return lineCollection;
+            }
+
+        }
 
         public class CartLine
         {
